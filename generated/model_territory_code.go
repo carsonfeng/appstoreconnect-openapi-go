@@ -146,7 +146,7 @@ const (
 	LTU TerritoryCode = "LTU"
 	LUX TerritoryCode = "LUX"
 	LVA TerritoryCode = "LVA"
-	MAC TerritoryCode = "MAC"
+	//MAC TerritoryCode = "MAC"
 	MAR TerritoryCode = "MAR"
 	MCO TerritoryCode = "MCO"
 	MDA TerritoryCode = "MDA"

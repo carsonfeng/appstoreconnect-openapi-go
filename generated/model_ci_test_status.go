@@ -20,10 +20,10 @@ type CiTestStatus string
 
 // List of CiTestStatus
 const (
-	SUCCESS          CiTestStatus = "SUCCESS"
-	FAILURE          CiTestStatus = "FAILURE"
-	MIXED            CiTestStatus = "MIXED"
-	SKIPPED          CiTestStatus = "SKIPPED"
+	SUCCESS CiTestStatus = "SUCCESS"
+	FAILURE CiTestStatus = "FAILURE"
+	MIXED   CiTestStatus = "MIXED"
+	//SKIPPED          CiTestStatus = "SKIPPED"
 	EXPECTED_FAILURE CiTestStatus = "EXPECTED_FAILURE"
 )
 

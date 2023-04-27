@@ -20,10 +20,10 @@ type SubscriptionStatusUrlVersion string
 
 // List of SubscriptionStatusUrlVersion
 const (
-	V1 SubscriptionStatusUrlVersion = "V1"
-	V2 SubscriptionStatusUrlVersion = "V2"
-	V1 SubscriptionStatusUrlVersion = "v1"
-	V2 SubscriptionStatusUrlVersion = "v2"
+//V1 SubscriptionStatusUrlVersion = "V1"
+//V2 SubscriptionStatusUrlVersion = "V2"
+//V1 SubscriptionStatusUrlVersion = "v1"
+//V2 SubscriptionStatusUrlVersion = "v2"
 )
 
 // All allowed values of SubscriptionStatusUrlVersion enum

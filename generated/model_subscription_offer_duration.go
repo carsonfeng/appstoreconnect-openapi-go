@@ -20,8 +20,8 @@ type SubscriptionOfferDuration string
 
 // List of SubscriptionOfferDuration
 const (
-	ONE_DAY      SubscriptionOfferDuration = "ONE_DAY"
-	THREE_DAYS   SubscriptionOfferDuration = "THREE_DAYS"
+	ONE_DAY SubscriptionOfferDuration = "ONE_DAY"
+	//THREE_DAYS   SubscriptionOfferDuration = "THREE_DAYS"
 	ONE_WEEK     SubscriptionOfferDuration = "ONE_WEEK"
 	TWO_WEEKS    SubscriptionOfferDuration = "TWO_WEEKS"
 	ONE_MONTH    SubscriptionOfferDuration = "ONE_MONTH"

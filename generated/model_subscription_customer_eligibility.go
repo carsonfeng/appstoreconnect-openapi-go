@@ -22,7 +22,7 @@ type SubscriptionCustomerEligibility string
 const (
 	NEW      SubscriptionCustomerEligibility = "NEW"
 	EXISTING SubscriptionCustomerEligibility = "EXISTING"
-	EXPIRED  SubscriptionCustomerEligibility = "EXPIRED"
+	//EXPIRED  SubscriptionCustomerEligibility = "EXPIRED"
 )
 
 // All allowed values of SubscriptionCustomerEligibility enum

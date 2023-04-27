@@ -20,10 +20,10 @@ type BetaReviewState string
 
 // List of BetaReviewState
 const (
-	WAITING_FOR_REVIEW BetaReviewState = "WAITING_FOR_REVIEW"
-	IN_REVIEW          BetaReviewState = "IN_REVIEW"
-	REJECTED           BetaReviewState = "REJECTED"
-	APPROVED           BetaReviewState = "APPROVED"
+//WAITING_FOR_REVIEW BetaReviewState = "WAITING_FOR_REVIEW"
+//IN_REVIEW          BetaReviewState = "IN_REVIEW"
+//REJECTED           BetaReviewState = "REJECTED"
+//APPROVED           BetaReviewState = "APPROVED"
 )
 
 // All allowed values of BetaReviewState enum

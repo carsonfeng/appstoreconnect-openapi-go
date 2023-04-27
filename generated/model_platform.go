@@ -20,9 +20,9 @@ type Platform string
 
 // List of Platform
 const (
-	IOS    Platform = "IOS"
-	MAC_OS Platform = "MAC_OS"
-	TV_OS  Platform = "TV_OS"
+	//IOS    Platform = "IOS"
+	//MAC_OS Platform = "MAC_OS"
+	TV_OS Platform = "TV_OS"
 )
 
 // All allowed values of Platform enum

@@ -20,18 +20,18 @@ type InAppPurchaseState string
 
 // List of InAppPurchaseState
 const (
-	MISSING_METADATA            InAppPurchaseState = "MISSING_METADATA"
-	WAITING_FOR_UPLOAD          InAppPurchaseState = "WAITING_FOR_UPLOAD"
-	PROCESSING_CONTENT          InAppPurchaseState = "PROCESSING_CONTENT"
-	READY_TO_SUBMIT             InAppPurchaseState = "READY_TO_SUBMIT"
-	WAITING_FOR_REVIEW          InAppPurchaseState = "WAITING_FOR_REVIEW"
-	IN_REVIEW                   InAppPurchaseState = "IN_REVIEW"
-	DEVELOPER_ACTION_NEEDED     InAppPurchaseState = "DEVELOPER_ACTION_NEEDED"
-	PENDING_BINARY_APPROVAL     InAppPurchaseState = "PENDING_BINARY_APPROVAL"
-	APPROVED                    InAppPurchaseState = "APPROVED"
+	MISSING_METADATA   InAppPurchaseState = "MISSING_METADATA"
+	WAITING_FOR_UPLOAD InAppPurchaseState = "WAITING_FOR_UPLOAD"
+	PROCESSING_CONTENT InAppPurchaseState = "PROCESSING_CONTENT"
+	READY_TO_SUBMIT    InAppPurchaseState = "READY_TO_SUBMIT"
+	WAITING_FOR_REVIEW InAppPurchaseState = "WAITING_FOR_REVIEW"
+	//IN_REVIEW                   InAppPurchaseState = "IN_REVIEW"
+	DEVELOPER_ACTION_NEEDED InAppPurchaseState = "DEVELOPER_ACTION_NEEDED"
+	PENDING_BINARY_APPROVAL InAppPurchaseState = "PENDING_BINARY_APPROVAL"
+	//APPROVED                    InAppPurchaseState = "APPROVED"
 	DEVELOPER_REMOVED_FROM_SALE InAppPurchaseState = "DEVELOPER_REMOVED_FROM_SALE"
 	REMOVED_FROM_SALE           InAppPurchaseState = "REMOVED_FROM_SALE"
-	REJECTED                    InAppPurchaseState = "REJECTED"
+	//REJECTED                    InAppPurchaseState = "REJECTED"
 )
 
 // All allowed values of InAppPurchaseState enum

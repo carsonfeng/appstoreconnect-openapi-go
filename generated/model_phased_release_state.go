@@ -23,7 +23,7 @@ const (
 	INACTIVE PhasedReleaseState = "INACTIVE"
 	ACTIVE   PhasedReleaseState = "ACTIVE"
 	PAUSED   PhasedReleaseState = "PAUSED"
-	COMPLETE PhasedReleaseState = "COMPLETE"
+	//COMPLETE PhasedReleaseState = "COMPLETE"
 )
 
 // All allowed values of PhasedReleaseState enum

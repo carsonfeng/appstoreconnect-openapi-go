@@ -20,12 +20,12 @@ type InternalBetaState string
 
 // List of InternalBetaState
 const (
-	PROCESSING                  InternalBetaState = "PROCESSING"
-	PROCESSING_EXCEPTION        InternalBetaState = "PROCESSING_EXCEPTION"
-	MISSING_EXPORT_COMPLIANCE   InternalBetaState = "MISSING_EXPORT_COMPLIANCE"
-	READY_FOR_BETA_TESTING      InternalBetaState = "READY_FOR_BETA_TESTING"
-	IN_BETA_TESTING             InternalBetaState = "IN_BETA_TESTING"
-	EXPIRED                     InternalBetaState = "EXPIRED"
+	PROCESSING                InternalBetaState = "PROCESSING"
+	PROCESSING_EXCEPTION      InternalBetaState = "PROCESSING_EXCEPTION"
+	MISSING_EXPORT_COMPLIANCE InternalBetaState = "MISSING_EXPORT_COMPLIANCE"
+	READY_FOR_BETA_TESTING    InternalBetaState = "READY_FOR_BETA_TESTING"
+	IN_BETA_TESTING           InternalBetaState = "IN_BETA_TESTING"
+	//EXPIRED                     InternalBetaState = "EXPIRED"
 	IN_EXPORT_COMPLIANCE_REVIEW InternalBetaState = "IN_EXPORT_COMPLIANCE_REVIEW"
 )
 

@@ -20,18 +20,18 @@ type ExternalBetaState string
 
 // List of ExternalBetaState
 const (
-	PROCESSING                  ExternalBetaState = "PROCESSING"
-	PROCESSING_EXCEPTION        ExternalBetaState = "PROCESSING_EXCEPTION"
-	MISSING_EXPORT_COMPLIANCE   ExternalBetaState = "MISSING_EXPORT_COMPLIANCE"
-	READY_FOR_BETA_TESTING      ExternalBetaState = "READY_FOR_BETA_TESTING"
-	IN_BETA_TESTING             ExternalBetaState = "IN_BETA_TESTING"
-	EXPIRED                     ExternalBetaState = "EXPIRED"
-	READY_FOR_BETA_SUBMISSION   ExternalBetaState = "READY_FOR_BETA_SUBMISSION"
-	IN_EXPORT_COMPLIANCE_REVIEW ExternalBetaState = "IN_EXPORT_COMPLIANCE_REVIEW"
-	WAITING_FOR_BETA_REVIEW     ExternalBetaState = "WAITING_FOR_BETA_REVIEW"
-	IN_BETA_REVIEW              ExternalBetaState = "IN_BETA_REVIEW"
-	BETA_REJECTED               ExternalBetaState = "BETA_REJECTED"
-	BETA_APPROVED               ExternalBetaState = "BETA_APPROVED"
+	//PROCESSING                  ExternalBetaState = "PROCESSING"
+	//PROCESSING_EXCEPTION        ExternalBetaState = "PROCESSING_EXCEPTION"
+	//MISSING_EXPORT_COMPLIANCE   ExternalBetaState = "MISSING_EXPORT_COMPLIANCE"
+	//READY_FOR_BETA_TESTING      ExternalBetaState = "READY_FOR_BETA_TESTING"
+	//IN_BETA_TESTING             ExternalBetaState = "IN_BETA_TESTING"
+	//EXPIRED                     ExternalBetaState = "EXPIRED"
+	READY_FOR_BETA_SUBMISSION ExternalBetaState = "READY_FOR_BETA_SUBMISSION"
+	//IN_EXPORT_COMPLIANCE_REVIEW ExternalBetaState = "IN_EXPORT_COMPLIANCE_REVIEW"
+	WAITING_FOR_BETA_REVIEW ExternalBetaState = "WAITING_FOR_BETA_REVIEW"
+	IN_BETA_REVIEW          ExternalBetaState = "IN_BETA_REVIEW"
+	BETA_REJECTED           ExternalBetaState = "BETA_REJECTED"
+	BETA_APPROVED           ExternalBetaState = "BETA_APPROVED"
 )
 
 // All allowed values of ExternalBetaState enum
