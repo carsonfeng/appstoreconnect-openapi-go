@@ -6,7 +6,6 @@ import (
 	"crypto/x509"
 	"encoding/pem"
 	"fmt"
-	"io/ioutil"
 	"time"
 
 	api "github.com/carsonfeng/appstoreconnect-openapi-go/generated"
@@ -16,7 +15,7 @@ import (
 
 // Variables from the appstore
 // from https://developer.apple.com/documentation/appstoreconnectapi/generating_tokens_for_api_requests
-var authKeyP8FilePath = "<path to p8 file>"
+var authKeyP8 = "<P8 Key String>"
 var iss = "<Issuer ID>"
 var kid = "<Key identifier>"
 
@@ -29,7 +28,7 @@ func main() {
 	})
 	token.Header["kid"] = kid
 
-	key, err := getPrivateKey(authKeyP8FilePath)
+	key, err := getPrivateKey(authKeyP8)
 	if err != nil {
 		fmt.Println(err)
 		return
@@ -44,25 +43,22 @@ func main() {
 	// cfg.Debug = false
 	auth := context.WithValue(context.Background(), api.ContextAccessToken, signedToken)
 	client := api.NewAPIClient(cfg)
-	_ = auth
-	_ = client
-	//var response api.UsersResponse
-	//if response, _, err = client.UsersApi.UsersGetCollection(auth, nil); err != nil {
-	//	fmt.Println(err)
-	//	return
-	//}
-	//for _, user := range response.Data {
-	//	fmt.Println(user.Attributes.Username)
-	//}
+
+	response, _, e := client.UsersApi.UsersGetCollection(auth).Execute()
+
+	if e != nil {
+		fmt.Println(e)
+		return
+	}
+	for _, user := range response.Data {
+		fmt.Println(user.Attributes.Username)
+	}
 }
 
 // Reads a p8 file and returns the ecdsa private key
-func getPrivateKey(fileP8 string) (*ecdsa.PrivateKey, error) {
-	var fileData []byte
+func getPrivateKey(authKeyP8 string) (*ecdsa.PrivateKey, error) {
 	var err error
-	if fileData, err = ioutil.ReadFile(fileP8); err != nil {
-		return nil, err
-	}
+	fileData := []byte(authKeyP8)
 	var parsedKey interface{}
 	var key *ecdsa.PrivateKey
 	var ok bool
