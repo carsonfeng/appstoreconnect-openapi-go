@@ -44,14 +44,16 @@ func main() {
 	// cfg.Debug = false
 	auth := context.WithValue(context.Background(), api.ContextAccessToken, signedToken)
 	client := api.NewAPIClient(cfg)
-	var response api.UsersResponse
-	if response, _, err = client.UsersApi.UsersGetCollection(auth, nil); err != nil {
-		fmt.Println(err)
-		return
-	}
-	for _, user := range response.Data {
-		fmt.Println(user.Attributes.Username)
-	}
+	_ = auth
+	_ = client
+	//var response api.UsersResponse
+	//if response, _, err = client.UsersApi.UsersGetCollection(auth, nil); err != nil {
+	//	fmt.Println(err)
+	//	return
+	//}
+	//for _, user := range response.Data {
+	//	fmt.Println(user.Attributes.Username)
+	//}
 }
 
 // Reads a p8 file and returns the ecdsa private key
