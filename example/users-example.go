@@ -9,7 +9,7 @@ import (
 	"io/ioutil"
 	"time"
 
-	api "github.com/xr1337/appstoreconnect-openapi-go/generated"
+	api "github.com/carsonfeng/appstoreconnect-openapi-go/generated"
 
 	"github.com/dgrijalva/jwt-go"
 )

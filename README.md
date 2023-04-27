@@ -39,9 +39,9 @@ func main() {
 }
 ```
 
-Checkout out the [example folder](https://github.com/xr1337/appstoreconnect-openapi-go/tree/master/example) for more examples ( includes reading Apples .p8 file )
+Checkout out the [example folder](https://github.com/carsonfeng/appstoreconnect-openapi-go/tree/master/example) for more examples ( includes reading Apples .p8 file )
 
-Alternatively, OpenAPI generates a README.md file ([View here](https://github.com/xr1337/appstoreconnect-openapi-go/blob/master/generated/README.md)) to see what APIs that you can use
+Alternatively, OpenAPI generates a README.md file ([View here](https://github.com/carsonfeng/appstoreconnect-openapi-go/blob/master/generated/README.md)) to see what APIs that you can use
 
 ## Regenerate
 
