@@ -26,7 +26,7 @@ go get github.com/carsonfeng/appstoreconnect-openapi-go/generated
 
 Heres a non-production recommended code to test the API out
 ```golang
-import 	api "github.com/xr1337/appstoreconnect-openapi-go/generated"
+import 	api "github.com/carsonfeng/appstoreconnect-openapi-go/generated"
 
 func main() {
 	cfg := api.NewConfiguration()
