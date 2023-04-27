@@ -19,7 +19,7 @@ Thus I would appreciate a star if this project is useful to you.
 Add the generated code to your project
 
 ```bash
-go get github.com/xr1337/appstoreconnect-openapi-go/generated
+go get github.com/carsonfeng/appstoreconnect-openapi-go/generated
 ```
 
 ## Usage
