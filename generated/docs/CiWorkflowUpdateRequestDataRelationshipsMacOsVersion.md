@@ -1,0 +1,56 @@
+# CiWorkflowUpdateRequestDataRelationshipsMacOsVersion
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Data** | Pointer to [**CiWorkflowRelationshipsMacOsVersionData**](CiWorkflowRelationshipsMacOsVersionData.md) |  | [optional] 
+
+## Methods
+
+### NewCiWorkflowUpdateRequestDataRelationshipsMacOsVersion
+
+`func NewCiWorkflowUpdateRequestDataRelationshipsMacOsVersion() *CiWorkflowUpdateRequestDataRelationshipsMacOsVersion`
+
+NewCiWorkflowUpdateRequestDataRelationshipsMacOsVersion instantiates a new CiWorkflowUpdateRequestDataRelationshipsMacOsVersion object
+This constructor will assign default values to properties that have it defined,
+and makes sure properties required by API are set, but the set of arguments
+will change when the set of required properties is changed
+
+### NewCiWorkflowUpdateRequestDataRelationshipsMacOsVersionWithDefaults
+
+`func NewCiWorkflowUpdateRequestDataRelationshipsMacOsVersionWithDefaults() *CiWorkflowUpdateRequestDataRelationshipsMacOsVersion`
+
+NewCiWorkflowUpdateRequestDataRelationshipsMacOsVersionWithDefaults instantiates a new CiWorkflowUpdateRequestDataRelationshipsMacOsVersion object
+This constructor will only assign default values to properties that have it defined,
+but it doesn't guarantee that properties required by API are set
+
+### GetData
+
+`func (o *CiWorkflowUpdateRequestDataRelationshipsMacOsVersion) GetData() CiWorkflowRelationshipsMacOsVersionData`
+
+GetData returns the Data field if non-nil, zero value otherwise.
+
+### GetDataOk
+
+`func (o *CiWorkflowUpdateRequestDataRelationshipsMacOsVersion) GetDataOk() (*CiWorkflowRelationshipsMacOsVersionData, bool)`
+
+GetDataOk returns a tuple with the Data field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetData
+
+`func (o *CiWorkflowUpdateRequestDataRelationshipsMacOsVersion) SetData(v CiWorkflowRelationshipsMacOsVersionData)`
+
+SetData sets Data field to given value.
+
+### HasData
+
+`func (o *CiWorkflowUpdateRequestDataRelationshipsMacOsVersion) HasData() bool`
+
+HasData returns a boolean if a field has been set.
+
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
